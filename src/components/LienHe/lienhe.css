@@ -1,0 +1,27 @@
+.form_lh {
+    display: block;
+    padding-top: 250px;
+    padding-left: 1065px;
+    padding-bottom: 333px;
+}
+
+.form_lh input {
+    width: 500px;
+    height: 55px;
+    border: 2px solid #90a31f;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+}
+
+.btn_form {
+    padding: 20px 45px;
+    border: none;
+    background-color: #90a31f;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.btn_form:hover {
+    background-color: #bcd53b;
+}

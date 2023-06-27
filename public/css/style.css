@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+ 
+body {
+    
+}
+
+nav {
+    display: flex;
+    padding: 0px 320px 32px 347px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10000;
+}
+
+.logo {
+    width: 183px;
+    height: 54px;
+    padding-right: 330px;
+    padding-top: 22px;
+}
+
+ul {
+    display: flex;
+    
+}
+
+ul > li {
+    list-style: none;
+    padding-right: 129px;
+    padding-top: 41px;
+}
+
+ul > li:last-child {
+    padding-right: 0;
+}
+
+ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.tin_tuc {
+    padding-top: 72px;
+    padding-left: 320px;
+    padding-right: 320px;
+    display: flex;
+}
+
+.trangchu {
+    width: 1280px;
+    padding-right: 65px;
+}
+
+.about-tt {
+    padding-top: 75px;
+}
+
+.content-tt {
+    display: flex;
+    padding-top: 60px;
+}
+
+.content-tt img {
+    width: 148px;
+    height: 120px;
+    padding-right: 28px;
+}
+
+.trangchu img {
+    width: 850px;
+    height: 320px;
+}
+
+footer {
+    background-image: url(/img/trangchu/fotter.png);
+    background-repeat: no-repeat;
+    height: 210px;
+}
+
+.table-content {
+    display: flex;
+    justify-content: center;
+}
+
+

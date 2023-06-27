@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+nav {
+    display: flex;
+    padding: 0px 320px 32px 347px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10000;
+}
+
+.logo {
+    width: 183px;
+    height: 54px;
+    padding-right: 330px;
+    padding-top: 22px;
+}
+
+ul {
+    display: flex;
+    
+}
+
+ul > li {
+    list-style: none;
+    padding-right: 129px;
+    padding-top: 41px;
+}
+
+ul > li:last-child {
+    padding-right: 0;
+}
+
+ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    padding-top: 40px;
+}
+
+.title {
+    background-image: url(/img/gioithieu/banner1.jpg);
+    height: 750px;
+    padding-left: 425px;
+    padding-top: 310px;
+}
+
+.title h2 {
+    color: #aabc44;
+    font-weight: 500;
+}
+
+.title h1 {
+    font-size: 3em;
+    font-weight: 500
+}
+
+
+
+.about {
+    padding-top: 20px;
+    padding: 0 425px 10px 425px;
+    background-image: url(/img/gioithieu/banner02.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.about p {
+    padding-bottom: 45px;
+    font-size: 1.3em;
+}
+
+.about img {
+    padding-bottom: 60px;
+}
+
+footer {
+    background-image: url(/img/trangchu/fotter.png);
+    background-repeat: no-repeat;
+    height: 210px;
+}
+
+.table-content {
+    display: flex;
+    justify-content: center;
+}

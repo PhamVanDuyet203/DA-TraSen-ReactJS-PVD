@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+    top: 0;
+    display: flex;
+    padding: 0px 344px 26px 315px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10000;
+    box-shadow: 0 1px 10px #ccc;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+    width: 183px;
+    height: 54px;
+    padding-right: 330px;
+    padding-top: 22px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul {
+    display: flex;
+
 }
 
-.App-link {
-  color: #61dafb;
+.li {
+    list-style: none;
+    padding-right: 129px;
+    padding-top: 41px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.li:last-child {
+    padding-right: 0;
+}
+
+.li a {
+    text-decoration: none;
+    padding: 50px 0;
+}
+
+.li a:hover {
+    color: #aabc44 !important;
+}
+
+
+
+/* Đọc thêm button*/
+.moreButton {
+    background-color: #aabc44;
+    border: none;
+    padding: 20px 0px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.moreButton a {
+    text-decoration: none;
+    padding: 20px 35px;
+    color: black;
+}
+
+.moreButton:hover {
+    background-color: #bcd53b;
+}
+
+/* bỏ margin cho thẻ p */
+.removeFor_p {
+    margin: 0;
+}
+
+/* Thử ngay button */
+
+.tryButton {
+    background-color: #aabc44;
+    border: none;
+    padding: 20px 0px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.tryButton:hover {
+    background-color: #bcd53b;
+}
+
+/* Class button Gửi */
+.myButton {
+    padding: 17px 92px;
+    background-color: #aabc44;
+    border: none;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.myButton:hover {
+    background-color: #bcd53b;
+}
+
+/* item nghệ nhân */
+.itemnn {
+    transition: transform 0.2s;
+}
+
+.itemnn:hover {
+    transform: scale(1.2);
+}
+
+/* container_item */
+.container_item {
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+
+footer {
+    background-image: url(../public/img/trangchu/fotter.png);
+    background-repeat: no-repeat;
+    height: 210px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer h1 {
+    font-size: 1.5em;
+    margin-top: 11px;
 }
